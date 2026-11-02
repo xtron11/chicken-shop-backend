@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Виртуальные окружения
+venv/
+venv*/
+.venv/
+env/
+
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE / ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Логи
+*.log
+logs/
+
+# Экспорты заказов
+*.xlsx
